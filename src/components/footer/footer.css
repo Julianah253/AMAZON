@@ -1,0 +1,107 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+footer .footer {
+  background-color: #37475A;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+}
+footer .footer:hover {
+  background-color: #485769;
+}
+footer .footer center a {
+  text-decoration: none;
+  color: #fff;
+}
+footer .main__footer {
+  background-color: #232F3E;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 600px;
+}
+footer .main__footer .main {
+  display: flex;
+  gap: 10rem;
+}
+footer .main__footer .main .get {
+  display: grid;
+  padding-top: 50px;
+}
+footer .main__footer .main .get h4 {
+  color: #fff;
+  font-size: 20px;
+}
+footer .main__footer .main .get .a1 {
+  display: grid;
+  align-items: center;
+}
+footer .main__footer .main .get .a1 a {
+  text-decoration: none;
+  color: #fff;
+}
+footer .main__footer .main .get .a1 a:hover {
+  text-decoration: underline;
+}
+footer .main__footer .main .make__money {
+  display: grid;
+  padding-top: 50px;
+  line-height: 30px;
+}
+footer .main__footer .main .make__money h4 {
+  color: #fff;
+  font-size: 20px;
+}
+footer .main__footer .main .make__money .a2 {
+  display: grid;
+}
+footer .main__footer .main .make__money .a2 a {
+  text-decoration: none;
+  color: #fff;
+}
+footer .main__footer .main .make__money .a2 a:hover {
+  text-decoration: underline;
+}
+footer .main__footer .main .amazon__payment {
+  display: grid;
+  padding-top: 50px;
+}
+footer .main__footer .main .amazon__payment h4 {
+  color: #fff;
+  font-size: 20px;
+}
+footer .main__footer .main .amazon__payment .a3 {
+  display: grid;
+}
+footer .main__footer .main .amazon__payment .a3 a {
+  text-decoration: none;
+  color: #fff;
+}
+footer .main__footer .main .amazon__payment .a3 a:hover {
+  text-decoration: underline;
+}
+footer .main__footer .main .help {
+  display: grid;
+  padding-top: 50px;
+}
+footer .main__footer .main .help h4 {
+  color: #fff;
+  font-size: 20px;
+}
+footer .main__footer .main .help .a4 {
+  display: grid;
+}
+footer .main__footer .main .help .a4 a {
+  text-decoration: none;
+  line-height: 20px;
+  color: #fff;
+}
+footer .main__footer .main .help .a4 a:hover {
+  text-decoration: underline;
+}/*# sourceMappingURL=footer.css.map */

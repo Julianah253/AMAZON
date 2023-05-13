@@ -40,11 +40,12 @@ footer
         align-items: center;
         justify-content: center;
         height: 600px;
+        border-bottom: 1px solid #3a4553;
+        // margin-top: 40px;
         .main
         {
             display: flex;
             gap: 10rem;
-            // text-align: start;
             .get 
             {
                 display: grid;
@@ -62,7 +63,7 @@ footer
                     a 
                     {
                         text-decoration: none;
-                        color: #fff;
+                        color: #DDD;
                         &:hover 
                         {
                             text-decoration: underline;
@@ -88,7 +89,7 @@ footer
                     a 
                     {
                         text-decoration: none;
-                        color: #fff;
+                        color: #DDD;
                         &:hover 
                         {
                             text-decoration: underline;
@@ -113,7 +114,7 @@ footer
                     a 
                     {
                         text-decoration: none;
-                        color: #fff;
+                        color: #DDD;
                         &:hover 
                         {
                             text-decoration: underline;
@@ -139,7 +140,7 @@ footer
                     {
                         text-decoration: none;
                         line-height: 20px;
-                        color: #fff;
+                        color: #DDD;
                         &:hover 
                         {
                             text-decoration: underline;
@@ -149,4 +150,161 @@ footer
             }
         }
     }
+
+    .image
+    {
+        background-color: #232F3E;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+        .div1
+        {
+            // display: flex;
+            // justify-content: center;
+            img
+            {
+                height: 70px;
+                width: 120px;
+            }
+        }
+
+        .div2
+        {
+            display: flex;
+            gap: 40px;
+            .select1
+            {
+                border: 1px solid #DDD;
+                width: 150px;
+                padding: 5px;
+                display: flex;
+                justify-content: center;
+                border-radius: 5px;
+                gap: 20px;
+                cursor: pointer;
+                .world__icon
+                {
+                    display: flex;
+                    align-items: center;
+                    gap: 7px;
+                }
+
+                .angle__icon
+                {
+                    display: grid;
+                    gap: 0.1px;
+                }
+            }
+
+            .select2
+            {
+                cursor: pointer;
+                border: 1px solid #DDD;
+                border-radius: 5px;
+                width: 150px;
+                padding: 10px;
+            }
+
+            .select3
+            {
+                display: flex;
+                align-items: center;
+                cursor: pointer;
+                border: 1px solid #999;
+                border-radius: 5px;
+                width: 180px;
+                padding: 10px;
+                gap: 10px;
+                img 
+                {
+                    width: 40px;
+                    height: 25px;
+                }
+
+                p 
+                {
+                    color: #999;
+                }
+            }
+        }
+    }
+
+    .last__footer
+    {
+        background-color: #131A22;
+        border-top: 1px solid #3a4553;
+        height: 800px;
+        padding: 60px;
+        table 
+        {
+            width: 100%;
+            border-collapse: collapse;
+            
+            tbody 
+            {
+                display: table-row-group;
+                vertical-align: middle;
+                border-color: inherit;  
+                
+                tr 
+                {
+                    display: table-row;
+                    vertical-align: inherit;
+                    border-color: inherit;
+                    margin-top: 70px;
+                    .navFooterDescItem
+                    {
+                        font-size: 12px!important;
+                        padding: 0 0.75em;
+                        vertical-align: top;
+                        text-align: left;
+                        line-height: 115%;
+
+                        .nav_a 
+                        {
+                            font-weight: 600;
+                        }
+
+                        a 
+                        {
+                            color: #DDD;
+                            text-decoration: none;
+                            white-space: normal;
+                            font-size: 1.0em;
+                            line-height: 1rem;
+                            &:hover
+                            {
+                                text-decoration: underline;
+                                text-decoration-color: #999;
+                            }
+
+                            span 
+                            {
+                                color: #999;
+                            }
+
+
+                        }
+                    }
+
+                    .navFooterDescSpacer
+                    {
+                        font-family: inherit;
+                        font-size: 13px;
+                        line-height: 120%;
+                        padding: 0 10px;
+                    }
+                }
+            }
+        }
+
+        .navFooterMoreOnAmazon
+        {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+    }
 }
+

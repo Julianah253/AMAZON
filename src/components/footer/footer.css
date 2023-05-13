@@ -25,6 +25,7 @@ footer .main__footer {
   align-items: center;
   justify-content: center;
   height: 600px;
+  border-bottom: 1px solid #3a4553;
 }
 footer .main__footer .main {
   display: flex;
@@ -44,7 +45,7 @@ footer .main__footer .main .get .a1 {
 }
 footer .main__footer .main .get .a1 a {
   text-decoration: none;
-  color: #fff;
+  color: #DDD;
 }
 footer .main__footer .main .get .a1 a:hover {
   text-decoration: underline;
@@ -63,7 +64,7 @@ footer .main__footer .main .make__money .a2 {
 }
 footer .main__footer .main .make__money .a2 a {
   text-decoration: none;
-  color: #fff;
+  color: #DDD;
 }
 footer .main__footer .main .make__money .a2 a:hover {
   text-decoration: underline;
@@ -81,7 +82,7 @@ footer .main__footer .main .amazon__payment .a3 {
 }
 footer .main__footer .main .amazon__payment .a3 a {
   text-decoration: none;
-  color: #fff;
+  color: #DDD;
 }
 footer .main__footer .main .amazon__payment .a3 a:hover {
   text-decoration: underline;
@@ -100,8 +101,122 @@ footer .main__footer .main .help .a4 {
 footer .main__footer .main .help .a4 a {
   text-decoration: none;
   line-height: 20px;
-  color: #fff;
+  color: #DDD;
 }
 footer .main__footer .main .help .a4 a:hover {
   text-decoration: underline;
+}
+footer .image {
+  background-color: #232F3E;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+footer .image .div1 img {
+  height: 70px;
+  width: 120px;
+}
+footer .image .div2 {
+  display: flex;
+  gap: 40px;
+}
+footer .image .div2 .select1 {
+  border: 1px solid #DDD;
+  width: 150px;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  border-radius: 5px;
+  gap: 20px;
+  cursor: pointer;
+}
+footer .image .div2 .select1 .world__icon {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+footer .image .div2 .select1 .angle__icon {
+  display: grid;
+  gap: 0.1px;
+}
+footer .image .div2 .select2 {
+  cursor: pointer;
+  border: 1px solid #DDD;
+  border-radius: 5px;
+  width: 150px;
+  padding: 10px;
+}
+footer .image .div2 .select3 {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  border: 1px solid #999;
+  border-radius: 5px;
+  width: 180px;
+  padding: 10px;
+  gap: 10px;
+}
+footer .image .div2 .select3 img {
+  width: 40px;
+  height: 25px;
+}
+footer .image .div2 .select3 p {
+  color: #999;
+}
+footer .last__footer {
+  background-color: #131A22;
+  border-top: 1px solid #3a4553;
+  height: 800px;
+  padding: 60px;
+}
+footer .last__footer table {
+  width: 100%;
+  border-collapse: collapse;
+}
+footer .last__footer table tbody {
+  display: table-row-group;
+  vertical-align: middle;
+  border-color: inherit;
+}
+footer .last__footer table tbody tr {
+  display: table-row;
+  vertical-align: inherit;
+  border-color: inherit;
+  margin-top: 70px;
+}
+footer .last__footer table tbody tr .navFooterDescItem {
+  font-size: 12px !important;
+  padding: 0 0.75em;
+  vertical-align: top;
+  text-align: left;
+  line-height: 115%;
+}
+footer .last__footer table tbody tr .navFooterDescItem .nav_a {
+  font-weight: 600;
+}
+footer .last__footer table tbody tr .navFooterDescItem a {
+  color: #DDD;
+  text-decoration: none;
+  white-space: normal;
+  font-size: 1em;
+  line-height: 1rem;
+}
+footer .last__footer table tbody tr .navFooterDescItem a:hover {
+  text-decoration: underline;
+  text-decoration-color: #999;
+}
+footer .last__footer table tbody tr .navFooterDescItem a span {
+  color: #999;
+}
+footer .last__footer table tbody tr .navFooterDescSpacer {
+  font-family: inherit;
+  font-size: 13px;
+  line-height: 120%;
+  padding: 0 10px;
+}
+footer .last__footer .navFooterMoreOnAmazon {
+  max-width: 1000px;
+  margin: 0 auto;
 }/*# sourceMappingURL=footer.css.map */

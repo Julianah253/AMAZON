@@ -121,6 +121,7 @@ footer .image .div1 img {
 footer .image .div2 {
   display: flex;
   gap: 40px;
+  align-items: center;
 }
 footer .image .div2 .select1 {
   border: 1px solid #DDD;
@@ -128,9 +129,11 @@ footer .image .div2 .select1 {
   padding: 5px;
   display: flex;
   justify-content: center;
+  align-items: center;
   border-radius: 5px;
   gap: 20px;
   cursor: pointer;
+  height: 50px;
 }
 footer .image .div2 .select1 .world__icon {
   display: flex;
@@ -139,22 +142,24 @@ footer .image .div2 .select1 .world__icon {
 }
 footer .image .div2 .select1 .angle__icon {
   display: grid;
-  gap: 0.1px;
+  gap: 1.5px;
 }
 footer .image .div2 .select2 {
-  cursor: pointer;
   border: 1px solid #DDD;
-  border-radius: 5px;
   width: 150px;
-  padding: 10px;
+  height: 50px;
+  padding: 9px;
+  border-radius: 5px;
+  cursor: pointer;
 }
 footer .image .div2 .select3 {
   display: flex;
-  align-items: center;
+  justify-content: center;
   cursor: pointer;
   border: 1px solid #999;
   border-radius: 5px;
   width: 180px;
+  height: 50px;
   padding: 10px;
   gap: 10px;
 }

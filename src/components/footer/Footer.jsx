@@ -61,7 +61,7 @@ const Footer = () => {
 
         <div className="image">
             <div className="div1">
-                <a href="#"><img src='./amazon.png'/></a>
+                <a href="#"><img src='http://localhost:3000/amazon.png'/></a>
             </div>
             <div className="div2">
                 <div className="select1">
@@ -103,7 +103,7 @@ const Footer = () => {
                         <td class="navFooterDescItem"><a href="https://aws.amazon.com/what-is-cloud-computing/?sc_channel=EL&amp;sc_campaign=amazonfooter" class="nav_a">Amazon Web Services<br/><span class="navFooterDescText">Scalable Cloud<br/>Computing Services</span></a></td><td class="navFooterDescSpacer"  style={{width: "3%"}}></td>
                         <td class="navFooterDescItem"><a href="https://www.audible.com" class="nav_a">Audible<br/><span class="navFooterDescText">Listen to Books &amp; Original<br/>Audio Performances</span></a></td><td class="navFooterDescSpacer"  style={{width: "3%"}}></td>
                         <td class="navFooterDescItem"><a href="https://www.bookdepository.com" class="nav_a">Book Depository<br/><span class="navFooterDescText">Books With Free<br/>Delivery Worldwide</span></a></td><td class="navFooterDescSpacer"  style={{width: "3%"}}></td>
-                        <td class="navFooterDescItem"><a href="https://www.boxofficemojo.com/?ref_=amzn_nav_ftr" class="nav_a">Box Office Mojo<br/><span class="navFooterDescText">Find Movie<br/>Box Office Data 🔍</span></a></td>
+                        <td class="navFooterDescItem"><a href="https://www.boxofficemojo.com/?ref_=amzn_nav_ftr" class="nav_a">Box Office Mojo<br/><span class="navFooterDescText">Find Movie<br/>Box Office Data </span></a></td>
                     </tr>
                         <tr><td>&nbsp;</td></tr>
                     <tr>

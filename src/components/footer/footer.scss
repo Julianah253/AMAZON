@@ -174,6 +174,7 @@ footer
         {
             display: flex;
             gap: 40px;
+            align-items: center;
             .select1
             {
                 border: 1px solid #DDD;
@@ -181,9 +182,11 @@ footer
                 padding: 5px;
                 display: flex;
                 justify-content: center;
+                align-items: center;
                 border-radius: 5px;
                 gap: 20px;
                 cursor: pointer;
+                height: 50px;
                 .world__icon
                 {
                     display: flex;
@@ -194,27 +197,29 @@ footer
                 .angle__icon
                 {
                     display: grid;
-                    gap: 0.1px;
+                    gap: 1.5px;
                 }
             }
 
             .select2
             {
-                cursor: pointer;
                 border: 1px solid #DDD;
-                border-radius: 5px;
                 width: 150px;
-                padding: 10px;
+                height: 50px;
+                padding: 9px;
+                border-radius: 5px;
+                cursor: pointer;
             }
 
             .select3
             {
                 display: flex;
-                align-items: center;
+                justify-content: center;
                 cursor: pointer;
                 border: 1px solid #999;
                 border-radius: 5px;
                 width: 180px;
+                height: 50px;
                 padding: 10px;
                 gap: 10px;
                 img 

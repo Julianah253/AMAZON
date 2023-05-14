@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 
+
 footer .footer {
   background-color: #37475A;
   height: 40px;
@@ -11,6 +12,7 @@ footer .footer {
   justify-content: center;
   align-items: center;
   border: none;
+  
 }
 footer .footer:hover {
   background-color: #485769;

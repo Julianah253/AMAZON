@@ -61,7 +61,7 @@ const Footer = () => {
 
         <div className="image">
             <div className="div1">
-                <a href="#"><img src='http://localhost:3000/amazon.png'/></a>
+                <a href="#"><img src='https://m.media-amazon.com/images/G/01/gc/designs/livepreview/amazon_dkblue_noto_email_v2016_us-main._CB468775337_.png'/></a>
             </div>
             <div className="div2">
                 <div className="select1">

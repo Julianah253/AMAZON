@@ -310,6 +310,55 @@ footer
             max-width: 1000px;
             margin: 0 auto;
         }
+
+        .navFooterLine
+        {
+            font-size: 15px;
+            font-family: inherit;
+            color: #DDD;
+
+            ul 
+            {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                margin: 0 0 0 18px;
+                padding: 10px;
+                color: #0F1111;
+                gap: 30px;
+
+                li 
+                {
+                    list-style: none;
+
+                    a 
+                    {
+                        text-decoration: none;
+                        color: #DDD;
+                        white-space: normal;
+                        padding: 0 0.6em;
+                    }
+                }
+            }
+
+            span 
+            {
+                text-align: center;
+            }
+            
+        }
+
+        .navFooterCopyright
+        {
+            background-color: #131A22;
+            max-width: 100%;
+            margin: 0;
+            padding: 10px 0 30px;        
+        }
+
+        .navFooterPadItemLine {
+            text-align: center;
+        }
     }
 }
 

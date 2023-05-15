@@ -140,8 +140,12 @@ const Footer = () => {
                     </tr>
                 </tbody>
             </table>
+            <br/><br/><br/><br/>
             <div class="navFooterLine navFooterLinkLine navFooterPadItemLine navFooterCopyright">
-                 <ul><li class="nav_first"><a href="/gp/help/customer/display.html?nodeId=508088&amp;ref_=footer_cou" class="nav_a">Conditions of Use</a></li><li><a href="/gp/help/customer/display.html?nodeId=468496&amp;ref_=footer_privacy" class="nav_a">Privacy Notice</a></li><li class="nav_last"><a href="/privacyprefs?ref_=footer_iba" class="nav_a">Your Ads Privacy Choices</a></li></ul><span>© 1996-2023, Amazon.com, Inc. or its affiliates</span>
+                 <ul>
+                    <li class="nav_first"><a href="/gp/help/customer/display.html?nodeId=508088&amp;ref_=footer_cou" class="nav_a">Conditions of Use</a></li><li><a href="/gp/help/customer/display.html?nodeId=468496&amp;ref_=footer_privacy" class="nav_a">Privacy Notice</a></li><li class="nav_last"><a href="/privacyprefs?ref_=footer_iba" class="nav_a">Your Ads Privacy Choices</a></li>
+                 </ul>
+                    <span>© 1996-2023, Amazon.com, Inc. or its affiliates</span>
             </div>
         </div>
     </footer>

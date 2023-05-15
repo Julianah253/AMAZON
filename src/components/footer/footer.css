@@ -4,7 +4,6 @@
   box-sizing: border-box;
 }
 
-
 footer .footer {
   background-color: #37475A;
   height: 40px;
@@ -12,7 +11,6 @@ footer .footer {
   justify-content: center;
   align-items: center;
   border: none;
-  
 }
 footer .footer:hover {
   background-color: #485769;
@@ -226,4 +224,39 @@ footer .last__footer table tbody tr .navFooterDescSpacer {
 footer .last__footer .navFooterMoreOnAmazon {
   max-width: 1000px;
   margin: 0 auto;
+}
+footer .last__footer .navFooterLine {
+  font-size: 15px;
+  font-family: inherit;
+  color: #DDD;
+}
+footer .last__footer .navFooterLine ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 0 0 18px;
+  padding: 10px;
+  color: #0F1111;
+  gap: 30px;
+}
+footer .last__footer .navFooterLine ul li {
+  list-style: none;
+}
+footer .last__footer .navFooterLine ul li a {
+  text-decoration: none;
+  color: #DDD;
+  white-space: normal;
+  padding: 0 0.6em;
+}
+footer .last__footer .navFooterLine span {
+  text-align: center;
+}
+footer .last__footer .navFooterCopyright {
+  background-color: #131A22;
+  max-width: 100%;
+  margin: 0;
+  padding: 10px 0 30px;
+}
+footer .last__footer .navFooterPadItemLine {
+  text-align: center;
 }/*# sourceMappingURL=footer.css.map */

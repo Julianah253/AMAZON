@@ -1,6 +1,8 @@
 import React from 'react'
 import Footer from './components/footer/Footer'
 import Carousel from './components/carousel/Carousel'
+import Card from './components/cards/Card'
+
 // import {BrowserRouter, Routes, Route} from 'react-router-dom'
 const App = () => {
   return (
@@ -15,10 +17,13 @@ const App = () => {
        </BrowserRouter> */}
 
       <Carousel />
+      <Card className="cardposition" />
 
       <Footer/>
     </div>
   )
 }
 
+
 export default App
+

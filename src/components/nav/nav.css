@@ -1,0 +1,55 @@
+.nav {
+  height: 40px;
+  background-color: #232f3e;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.container-nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  margin-left: 20px;
+  padding-top: 10px;
+  height: 40px;
+}
+.container-nav ul {
+  padding: 0;
+  width: 98vw;
+  display: flex;
+  align-items: center;
+  height: 40px;
+  font-size: 1rem;
+  color: white;
+  list-style: none;
+}
+
+.open-slider {
+  display: flex;
+  align-items: center;
+  margin-right: 7px;
+  font-size: 15px;
+}
+.open-slider p {
+  position: relative;
+  top: 9px;
+  padding-left: 3px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  padding: 0 10px;
+  font-size: 15px;
+  height: 40px;
+}
+
+.great-deals {
+  position: relative;
+  left: 10px;
+  font-weight: bold;
+}/*# sourceMappingURL=nav.css.map */
